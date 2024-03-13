@@ -17,8 +17,8 @@ public class StringConvertIntoDigit {
             if (Character.isDigit(ch)) {
                 sb.append(ch);
             } else if (Character.isLetter(ch)) {
-                char c = input.charAt(i+1);
-                sb.append((int)(ch+c));
+                System.out.println(ch +" = "+(int)ch);
+                sb.append((int)(ch));
             } else
                 sb.append(ch);
         }
